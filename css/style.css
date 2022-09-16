@@ -1,0 +1,607 @@
+/* ================================= Start  Global Rules ================================= */
+
+:root {
+    --main-color: #09c;
+    --secand-color: #cde1f8;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-title {
+    font-weight: 900;
+    font-size: 4rem;
+    text-align: center;
+    position: relative;
+}
+
+
+.main-title::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 25%;
+    height: 5px;
+    background-image: url(../img/dots.png);
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* ================================= End  Global Rules ================================= */
+
+/* ================================= Start Navbar ================================= */
+.navbar {
+    z-index: 555555555;
+}
+
+/* ================================= End Navbar ================================= */
+/* ================================= Start Home ================================= */
+.home {
+    background-image: url(../img/bg.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+
+.home .layer {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.home h1 {
+    font-size: 5rem;
+    font-weight: 100;
+    margin: .4rem 0rem 1.5rem;
+}
+
+.home h1::after {
+    content: " |";
+    animation: type 6s infinite linear;
+    font-weight: 400;
+}
+
+.home .social-icon a {
+    color: white;
+    padding: 0.6rem;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    margin: 0 0.1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes type {
+    0% {
+        content: "|";
+    }
+
+    1% {
+        content: " D|";
+    }
+
+    2% {
+        content: " De|";
+    }
+
+    3% {
+        content: " Des|";
+    }
+
+    4% {
+        content: " Desi|";
+    }
+
+    5% {
+        content: " Desig|";
+    }
+
+    6% {
+        content: " Design|";
+    }
+
+    7% {
+        content: " Designe|";
+    }
+
+    8% {
+        content: " Designer|";
+    }
+
+    21% {
+        content: " Designer|";
+    }
+
+    22% {
+        content: " Designe|";
+    }
+
+    23% {
+        content: " Design|";
+    }
+
+    24% {
+        content: " Desig|";
+    }
+
+    25% {
+        content: " Desi|";
+    }
+
+    26% {
+        content: " Des|";
+    }
+
+    27% {
+        content: " De|";
+    }
+
+    28% {
+        content: " D|";
+    }
+
+    29% {
+        content: "|";
+    }
+
+    30% {
+        content: " D|";
+    }
+
+    31% {
+        content: " De|";
+    }
+
+    32% {
+        content: " Dev|";
+    }
+
+    33% {
+        content: " Deve|";
+    }
+
+    34% {
+        content: " Devel|";
+    }
+
+    35% {
+        content: " Develo|";
+    }
+
+    36% {
+        content: " Develop|";
+    }
+
+    37% {
+        content: " Develope|";
+    }
+
+    38% {
+        content: " Developer|";
+    }
+
+    51% {
+        content: " Developer|";
+    }
+
+    52% {
+        content: " Develope|";
+    }
+
+    53% {
+        content: " Develop|";
+    }
+
+    54% {
+        content: " Develo|";
+    }
+
+    55% {
+        content: " Devel|";
+    }
+
+    56% {
+        content: " Deve|";
+    }
+
+    57% {
+        content: " Dev|";
+    }
+
+    58% {
+        content: " De|";
+    }
+
+    59% {
+        content: " D|";
+    }
+
+    60% {
+        content: "|";
+    }
+
+    61% {
+        content: " L|";
+    }
+
+    62% {
+        content: " La|";
+    }
+
+    63% {
+        content: " Lar|";
+    }
+
+    64% {
+        content: " Larr|";
+    }
+
+    65% {
+        content: " Larry|";
+    }
+
+    66% {
+        content: " Larry D|";
+    }
+
+    67% {
+        content: " Larry Da|";
+    }
+
+    68% {
+        content: " Larry Dan|";
+    }
+
+    69% {
+        content: " Larry Dani|";
+    }
+
+    70% {
+        content: " Larry Danie|";
+    }
+
+    71% {
+        content: " Larry Daniel|";
+    }
+
+    72% {
+        content: " Larry Daniels|";
+    }
+
+    88% {
+        content: " Larry Daniels|";
+    }
+
+    89% {
+        content: " Larry Daniel|";
+    }
+
+    90% {
+        content: " Larry Danie|";
+    }
+
+    91% {
+        content: " Larry Dani|";
+    }
+
+    92% {
+        content: " Larry Dan|";
+    }
+
+    93% {
+        content: " Larry Da|";
+    }
+
+    94% {
+        content: " Larry D|";
+    }
+
+    95% {
+        content: " Larry|";
+    }
+
+    96% {
+        content: " Larr|";
+    }
+
+    97% {
+        content: " Lar|";
+    }
+
+    98% {
+        content: " La|";
+    }
+
+    99% {
+        content: " L|";
+    }
+
+    100% {
+        content: "|";
+    }
+}
+
+@media screen and (max-width : 767px) {
+    html {
+        font-size: 12px;
+    }
+
+    .home h1 {
+        text-align: center;
+    }
+
+    .home {
+        background-position: center center;
+    }
+}
+
+/* ================================= End Home ================================= */
+
+/* ================================= Start About ================================= */
+.about .img::after {
+    content: "";
+    background-image: url(../img/dots.png);
+    height: 70%;
+    position: absolute;
+    width: 70%;
+    left: 0;
+    top: 30%;
+    z-index: -1;
+}
+
+.about .img img {
+    width: 90%;
+    transform: translate(40px, -40px);
+}
+
+.about p {
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+}
+
+.about p span {
+    font-weight: 900;
+}
+
+.about .bar {
+    height: 25px;
+    background-color: #f1f1f1;
+    box-shadow: 0 0 1px inset;
+    border-radius: 6px;
+}
+
+.about .bar h6 {
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.about .button a {
+    transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -ms-transition: all .5s linear;
+    -o-transition: all .5s linear;
+}
+
+.about .button a:first-child:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+
+.about-text {
+    transform: translateY(-40px);
+    -webkit-transform: translateY(-40px);
+    -moz-transform: translateY(-40px);
+    -ms-transform: translateY(-40px);
+    -o-transform: translateY(-40px);
+}
+
+@media screen and (max-width : 767px) {
+
+    .about-text {
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+        margin-top: .5rem;
+    }
+}
+
+/* ================================= End About ================================= */
+
+/* ================================= Start services ================================= */
+.ineer .icon {
+    width: 70px;
+    height: 70px;
+    transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -ms-transition: all .5s linear;
+    -o-transition: all .5s linear;
+}
+
+.ineer:hover .icon {
+    background-color: black !important;
+    color: white;
+}
+
+.ineer p {
+    line-height: 1.6;
+}
+
+/* ================================= End services ================================= */
+
+/* ================================= Start work ================================= */
+.work .ineer .text {
+    top: 5px;
+    bottom: -10px;
+    right: 5px;
+    left: 5px;
+    opacity: 0;
+    transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    -moz-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+    -o-transition: all .4s linear;
+}
+
+.work .ineer:hover .text {
+    opacity: 1;
+    bottom: 5px;
+}
+
+.work .ineer .text h6 {
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.work .ineer .text a {
+    color: white;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    padding: .5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -ms-transition: all .5s linear;
+    -o-transition: all .5s linear;
+}
+
+.work .ineer .text a:hover {
+    color: black;
+    background-color: white;
+}
+
+.work .nav-pills .nav-link,
+.work .nav-pills .nav-link.active {
+    color: black;
+    font-weight: 700;
+    font-size: .9rem;
+    background-color: transparent;
+    position: relative;
+}
+
+.work .nav-pills .nav-link.active::after {
+    width: 50%;
+    height: 3px;
+    content: "";
+    background-color: black;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+/* ================================= End work ================================= */
+
+
+/* ================================= Start testimonials ================================= */
+.testimonials .comment p {
+    line-height: 1.8;
+    margin: 0%;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    background-color: #869791;
+    border-radius: 50%;
+}
+
+/* ================================= End testimonials ================================= */
+
+/* ================================= Start Blog ================================= */
+.blog .ineer img {
+    transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -ms-transition: all .5s linear;
+    -o-transition: all .5s linear;
+}
+
+.blog .ineer img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.blog .ineer .text a:nth-child(2) {
+    line-height: 1.7;
+}
+
+.blog #blog-carousel .carousel-indicators {
+    margin-bottom: -3rem;
+}
+
+.carousel.small {
+    display: none;
+}
+
+@media screen and (max-width : 992px) {
+    .carousel.larg {
+        display: none;
+    }
+
+    .carousel.small {
+        display: block;
+    }
+
+    .blog #blog-carousel-sm .carousel-indicators {
+        margin-bottom: -3rem;
+    }
+}
+
+/* ================================= End Blog ================================= */
+/* ================================= Start contact ================================= */
+.form-control {
+    border: none;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.contact input[type="submit"]:hover {
+    border-color: black;
+    color: black;
+    background-color: white;
+}
+
+/* ================================= End contact ================================= */
